@@ -6,4 +6,4 @@ metadata:
 spec:
   jetstream:
     replicas: 3
-    version: 9.9.9
+    version: iwillfail
