@@ -7,15 +7,3 @@ spec:
   jetstream:
     replicas: 3
     version: 9.9.9
-status:
-  conditions:
-    - lastTransitionTime: null
-      status: 'True'
-      type: Configured
-    - lastTransitionTime: null
-      message: >-
-        failed to get jetstream version, err: unsupported version "9.9.9",
-        supported versions: "2.9.5,latest"
-      reason: JetStreamStatefulSetFailed
-      status: 'False'
-      type: Deployed
