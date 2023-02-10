@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: EventBus
 metadata:
-  name: test
-  namespace: eventbus-test
+  name: ebus  
+  namespace: deleteme-argocd
 spec:
   jetstream:
     replicas: 3
